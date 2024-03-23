@@ -1,109 +1,13 @@
 /* Estilo general */
-
+:root
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+}
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+  font-size: 1.2rem;
   }
-  
-  h1, h2, h3 {
-    font-weight: bold;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #000;
-  }
-  
-  a:hover {
-    color: #444;
-  }
-  
-  /* Encabezado */
-  
-  header {
-    background-color: #ccc;
-    padding: 10px;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  header form {
-    float: right;
-  }
-  
-  header input {
-    padding: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  header button {
-    padding: 5px 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Contenido principal */
-  
-  main {
-    padding: 20px;
-  }
-  
-  .seccion-noticias {
-    margin-bottom: 20px;
-  }
-  
-  .seccion-noticias h2 {
-    margin-top: 0;
-  }
-  
-  .noticia {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-  }
-  
-  .noticia img {
-    float: left;
-    margin-right: 10px;
-  }
-  
-  .noticia h3 {
-    margin-top: 0;
-  }
-  
-  .noticia p {
-    margin-bottom: 5px;
-  }
-  
-  .noticia a {
-    font-size: 0.8em;
-  }
-  
-  .seccion-categorias {
-    border: 1px solid #ddd;
-    padding: 10px;
-  }
-  
-  .seccion-categorias ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .seccion-categorias li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  /* Pie de página */
-  
-  footer {
-    background-color: #ccc;
-    padding: 10px;
-    text-align: center;
-  }
-  
